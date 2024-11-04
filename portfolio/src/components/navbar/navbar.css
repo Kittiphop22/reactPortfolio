@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+
+.navbar {
+    background-color: #b92121;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    min-height: 60px;
+}
+
+.navbar-links {
+    list-style-type: none;
+    display: flex;
+    gap: 100px;
+    margin-left: auto;
+    padding-right: 40px; /* เพิ่มระยะห่างจากขอบขวา */
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 26px;
+}
+
+.navbar-links a:hover {
+    color: #ddd;
+}
