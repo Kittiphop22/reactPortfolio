@@ -1,0 +1,9 @@
+.image-circle {
+  width: 320px;
+  height: 320px;
+  object-fit: contain;
+  border-radius: 50%; /* ทำให้เป็นรูปวงกลม */
+  border: 2px solid #ffffff; /* กรอบรอบรูป */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* เงา */
+}
+

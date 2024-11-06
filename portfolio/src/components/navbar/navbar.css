@@ -21,7 +21,7 @@ body {
     display: flex;
     gap: 100px;
     margin-left: auto;
-    padding-top: 15px;
+    padding-top: 20px;
     padding-right: 150px; /* เพิ่มระยะห่างจากขอบขวา */
     font-family: 'Kanit',sans-serif;
 }

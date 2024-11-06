@@ -1,13 +1,34 @@
 import React from "react";
+import Card from 'react-bootstrap/Card'
+import CardBody from "react-bootstrap/esm/CardBody";
+import { Container, Row, Col, Button } from 'react-bootstrap';
+import './components/img.css';
+const profile = require('./assets/images/profile2.jpg')
+
 
 export default function Home(){
     return(
-        <p style={{textAlign:'center'}}>
-            <h3>ยินดีต้อนรับสู่ React Store</h3>
-            รายชื่อ <a href="/products">สินค้า</a> ที่เรามีจำหน่าย 
-            <br/>
-            แต่ท่านต้องเป็น <a href="/member">สมาชิก</a> จึงจะสั่งซื้อได้ <br/>
-            หากมีข้อสงสัย กรุณา <a href="/contact">ติดต่อเรา</a>
-        </p>
+        <div style={{ display: 'flex', justifyContent:'center',padding:'100px'}}>
+    <div style={{ padding: '30px' ,fontSize:'24px'}}>
+        <Card style={{ width: '32rem' }}>  
+      <Card.Body>
+        <Card.Title style={{fontWeight:"bold",fontSize:"28px"}}>Kittiphop Noiyoo</Card.Title>
+        <Card.Subtitle className="mb-2 text-muted">Electonic Engineering Technology Department , KMUTNB</Card.Subtitle>
+        <Card.Text>
+          Hello my name is Kittiphop You can call me "March" im interesting in Web Developer job like Front-end Developer or Back-end Developer
+        </Card.Text>
+
+      </Card.Body>
+    </Card>
+    
+    </div>
+    <div style={{ padding: '10px', backgroundColor: '#d0d0d0' }}>
+        <img src={profile} alt="profile" className="image-circle"/>
+        </div>
+    
+        </div>
+
+        
     )
 }
+document.body.style.backgroundColor = "rgba(210, 210, 210,1)";
