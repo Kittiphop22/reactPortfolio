@@ -9,6 +9,9 @@ const profile = require('./assets/images/profile2.jpg')
 export default function Home(){
     return(
         <div style={{ display: 'flex', justifyContent:'center',padding:'100px'}}>
+            <div style={{ padding: '10px', backgroundColor: '#d0d0d0' }}>
+        <img src={profile} alt="profile" className="image-circle"/>
+        </div>
     <div style={{ padding: '30px' ,fontSize:'24px'}}>
         <Card style={{ width: '32rem' }}>  
       <Card.Body>
@@ -22,9 +25,7 @@ export default function Home(){
     </Card>
     
     </div>
-    <div style={{ padding: '10px', backgroundColor: '#d0d0d0' }}>
-        <img src={profile} alt="profile" className="image-circle"/>
-        </div>
+    
     
         </div>
 
