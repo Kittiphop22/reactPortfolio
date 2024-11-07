@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 .image-circle {
   width: 320px;
   height: 320px;
@@ -5,5 +7,63 @@
   border-radius: 50%; /* ทำให้เป็นรูปวงกลม */
   border: 2px solid #ffffff; /* กรอบรอบรูป */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* เงา */
+}
+
+.education {
+  width: 160px;
+  height: 160px;
+  object-fit: fill; /* ปรับขนาดรูปโดยไม่ทำให้บิดเบี้ยว */
+  transition: transform 0.3s ease;
+}
+.education:hover {
+  transform: scale(1.3); /* ขยายรูปขึ้น 20% เมื่อเอาเมาส์วาง */
+}
+
+.rmutp {
+  width: 160px;
+  height: 220px;
+  object-fit: fill; /* ปรับขนาดรูปโดยไม่ทำให้บิดเบี้ยว */
+  transition: transform 0.3s ease;
+}
+.rmutp:hover {
+  transform: scale(1.3); /* ขยายรูปขึ้น 20% เมื่อเอาเมาส์วาง */
+}
+
+.acheive {
+  width: 180px;
+  height: 180px;
+  object-fit: fill; /* ปรับขนาดรูปโดยไม่ทำให้บิดเบี้ยว */
+  transition: transform 0.3s ease;
+}
+.acheive:hover {
+  transform: scale(1.3); /* ขยายรูปขึ้น 20% เมื่อเอาเมาส์วาง */
+}
+
+
+.profile{
+  width: 180px;
+  height: 180px;
+  object-fit: fill;
+}
+
+.skill{
+  width: 120px;
+  height: 120px;
+  object-fit: fill;
+  transition: transform 0.3s ease;
+}
+.skill:hover {
+  transform: scale(1.3); /* ขยายรูปขึ้น 20% เมื่อเอาเมาส์วาง */
+}
+
+.lskill{
+  width: 180px;
+  height: 120px;
+  object-fit: fill;
+  transition: transform 0.3s ease;
+}
+
+.lskill:hover {
+  transform: scale(1.3); /* ขยายรูปขึ้น 20% เมื่อเอาเมาส์วาง */
 }
 
