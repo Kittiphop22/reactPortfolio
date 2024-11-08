@@ -40,33 +40,33 @@ export default function About() {
 
                         <Card.Text style={{ fontWeight: "bold",fontSize: '36px' }} className="mx-5">Education</Card.Text>
                         <Card border='0' className="mt-2" style={{backgroundColor:'#f7a84f'}}>
-                            <div className="mb-2" style={{ display: 'flex', justifyContent: 'left',fontSize: '28px' }}>
+                            <div className="mb-4" style={{ display: 'flex', justifyContent: 'left',fontSize: '28px' }}>
                                 <div className="mx-4"><img src={Debsirin} alt="Debsirin" className="education" /></div>
                                 <div className="mx-4" style={{color:'white'}}>2015-2017<br />Debsirin Nonthaburi School <br /> M.1 - M.3  Major: Math - Science</div>
                             </div>
 
-                            <div className="mb-2" style={{ display: 'flex', justifyContent: 'left',fontSize: '28px' }}>
+                            <div className="mb-4" style={{ display: 'flex', justifyContent: 'left',fontSize: '28px' }}>
                                 <div className="mx-4"><img src={RMUTP} alt="RMUTP" className="rmutp" /></div>
                                 <div className="mx-4" style={{color:'white'}}><br />2018-2020<br />Rajamangala University of Technology Phra Nakhon <br />Vocational Certificate Major:Electronics Technician</div>
                             </div>
-                            <div className="mb-2" style={{ display: 'flex', justifyContent: 'left',fontSize: '28px' }}>
+                            <div className="mb-4" style={{ display: 'flex', justifyContent: 'left',fontSize: '28px' }}>
                                 <div className="mx-4"><img src={KMUTNB} alt="KMUTNB" className="education" /></div>
-                                <div className="mx-4" style={{color:'white'}}>2021-present<br/>KING MONGKUT'S UNIVERSITY OF TECHNOLOGY NORTH BANGKOK</div>
+                                <div className="mx-4" style={{color:'white'}}>2021-present<br/>KING MONGKUT'S UNIVERSITY OF TECHNOLOGY NORTH BANGKOK<br/>bachelor of engineering<br/>Electronics Engineering Technology(Computer)</div>
                             </div>
                         </Card>
 
                         <Card.Text className="mt-2 mx-5" style={{ fontWeight: "bold",fontSize:'36px' }}>Acheive</Card.Text>
                         <Card border="0" style={{backgroundColor:'#f7a84f'}}>
-                            <div className="mt-2" style={{ display: 'flex', justifyContent: 'left',fontSize: '28px' }}>
+                            <div className="mt-2 mb-2" style={{ display: 'flex', justifyContent: 'left',fontSize: '28px' }}>
                                 <div className="mx-4"><img src={Webedit} alt="Webedit" className="acheive" /></div>
                                 <div className="mx-4" style={{color:'white'}}>Gold Medals<br />2017 Webpage Develop Text Editor</div>
                             </div>
 
-                            <div className="mt-2" style={{ display: 'flex', justifyContent: 'left',fontSize: '28px' }}>
+                            <div className="mt-2 mb-2" style={{ display: 'flex', justifyContent: 'left',fontSize: '28px' }}>
                                 <div className="mx-4"><img src={Hackathon} alt="hackathon" className="acheive" /></div>
                                 <div className="mx-4" style={{color:'white'}}>2nd Runner up<br />2023 ICIT Hackathon :KMUTNB Hub using Appsheet</div>
                             </div>
-                            <div className="mt-2" style={{ display: 'flex', justifyContent: 'left',fontSize: '28px' }}>
+                            <div className="mt-2 mb-2" style={{ display: 'flex', justifyContent: 'left',fontSize: '28px' }}>
                                 <div className="mx-4"><img src={powerbi} alt="powerbi" className="acheive" /></div>
                                 <div className="mx-4" style={{color:'white'}}>Attended<br />2024 ICIT Data Analytics using PowerBI</div>
                             </div>
