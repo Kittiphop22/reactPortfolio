@@ -19,7 +19,7 @@ export default function Home() {
             <Card.Subtitle className="mb-2 text-muted">Electonic Engineering Technology Department , KMUTNB</Card.Subtitle>
             <Card.Text>
               Hello my name is Kittiphop You can call me "March" im interesting in Web Developer job like Front-end Developer or Back-end Developer
-              <div className="mt-4"><button className="btn btn-sm btn-primary">Resume</button></div>
+              <div className="mt-4"><button className="btn btn-sm btn-primary"onClick={()=> window.open("https://drive.google.com/file/d/1gbUcq6-hxlL4b5j9aqAhVpL2AT0xbu7T/view?usp=drive_link")}>Resume</button></div>
             </Card.Text>
           </Card.Body>
         </Card>

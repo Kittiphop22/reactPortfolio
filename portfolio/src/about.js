@@ -79,70 +79,70 @@ export default function About() {
                         </Card>
                         <Card.Text className="mt-2" style={{ fontWeight: "bold" }}>Skill</Card.Text>
                         <Card border="0">
-                            <div style={{display:'flex'}}>
+                            <div style={{ display: 'flex' }}>
                                 <div className="mx-2">
                                     <div><img src={html} alt="html" className="skill" /></div>
-                                    <div style={{textAlign:'center'}}>HTML</div>
+                                    <div style={{ textAlign: 'center' }}>HTML</div>
                                 </div>
                                 <div className="mx-2">
                                     <div><img src={css} alt="html" className="lskill" /></div>
-                                    <div style={{textAlign:'center'}}>CSS</div>
+                                    <div style={{ textAlign: 'center' }}>CSS</div>
                                 </div>
                                 <div className="mx-2">
                                     <div><img src={js} alt="html" className="skill" /></div>
-                                    <div style={{textAlign:'center'}}>JavaScript</div>
+                                    <div style={{ textAlign: 'center' }}>JavaScript</div>
                                 </div>
                                 <div className="mx-2">
                                     <div><img src={php} alt="html" className="skill" /></div>
-                                    <div style={{textAlign:'center'}}>PHP</div>
+                                    <div style={{ textAlign: 'center' }}>PHP</div>
                                 </div>
                                 <div className="mx-2">
                                     <div><img src={react} alt="html" className="skill" /></div>
-                                    <div style={{textAlign:'center'}}>ReactJS</div>
+                                    <div style={{ textAlign: 'center' }}>ReactJS</div>
                                 </div>
                                 <div className="mx-2">
                                     <div><img src={flutter} alt="html" className="skill" /></div>
-                                    <div style={{textAlign:'center'}}>Flutter(Dart)</div>
+                                    <div style={{ textAlign: 'center' }}>Flutter(Dart)</div>
                                 </div>
                                 <div className="mx-2">
                                     <div><img src={nodejs} alt="html" className="lskill" /></div>
-                                    <div style={{textAlign:'center'}}>NodeJS</div>
+                                    <div style={{ textAlign: 'center' }}>NodeJS</div>
                                 </div>
-                                
+
                             </div>
 
                         </Card>
                         <Card.Text className="mt-2" style={{ fontWeight: "bold" }}>Tools</Card.Text>
                         <Card border="0">
-                            <div style={{display:'flex'}}>
-                            <div className="mx-2">
+                            <div style={{ display: 'flex' }}>
+                                <div className="mx-2">
                                     <div><img src={Github} alt="html" className="skill" /></div>
-                                    <div style={{textAlign:'center'}}>Github</div>
+                                    <div style={{ textAlign: 'center' }}>Github</div>
                                 </div>
                                 <div className="mx-2">
                                     <div><img src={postman} alt="html" className="skill" /></div>
-                                    <div style={{textAlign:'center'}}>Postman</div>
+                                    <div style={{ textAlign: 'center' }}>Postman</div>
                                 </div>
                                 <div className="mx-2">
                                     <div><img src={appsheet} alt="html" className="skill" /></div>
-                                    <div style={{textAlign:'center'}}>Appsheet</div>
-                                </div>                              
+                                    <div style={{ textAlign: 'center' }}>Appsheet</div>
+                                </div>
                             </div>
                         </Card>
                         <Card.Text className="mt-2" style={{ fontWeight: "bold" }}>Projects</Card.Text>
                         <Card>
                             <div className="mt-2" style={{ display: 'flex', justifyContent: 'left', }}>
                                 <div className="mx-4"><img src={hub} alt="KMUTNB" className="acheive" /></div>
-                                <div className="mx-4">KMUTNB Hub<br/>2023 ICIT Hackathon :KMUTNB Hub using Appsheet</div>
+                                <div className="mx-4">KMUTNB Hub<br />2023 ICIT Hackathon :KMUTNB Hub using Appsheet</div>
                             </div>
 
                             <div className="mt-2" style={{ display: 'flex', justifyContent: 'left' }}>
                                 <div className="mx-4"><img src={Doocar} alt="KMUTNB" className="lskill" /></div>
-                                <div className="mx-4">DooCar<br/>Software Engineering Project</div>
+                                <div className="mx-4">DooCar<br />Software Engineering Project</div>
                             </div>
                             <div className="mt-2" style={{ display: 'flex', justifyContent: 'left' }}>
                                 <div className="mx-4"><img src={shop} alt="KMUTNB" className="acheive" /></div>
-                                <div className="mx-4">Socks Store<br/>Flutter-Clone Project</div>
+                                <div className="mx-4">Socks Store<br />Flutter-Clone Project</div>
                             </div>
                         </Card>
                     </Card.Body>
